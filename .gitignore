@@ -1,0 +1,34 @@
+# Dependencies
+node_modules/
+
+# Next.js build outputs
+.next/
+out/
+
+# Production build artifacts
+build/
+dist/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Env files (add if used later)
+.env
+.env.*.local
+
+# OS / Editor junk
+.DS_Store
+*.swp
+*.swo
+.idea/
+.vscode/
+
+# TypeScript
+*.tsbuildinfo
+
+# Zips or temp
+*.zip
+*.tmp
