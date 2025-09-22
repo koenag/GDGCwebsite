@@ -1,9 +1,11 @@
 import React from 'react';
 import { Button } from "../../components/ui/button";
+import CornocopiaModal from "@/components/CornucopiaModal";
 
 export default function Home() {
     return (
         <div className="min-h-screen bg-white">
+            <CornocopiaModal />
             {/* Hero Section */}
             <section
                 className="relative isolate min-h-screen flex items-center justify-center overflow-hidden"
@@ -61,7 +63,7 @@ export default function Home() {
                                 About
                             </h2>
                             <p className="text-xl lg:text-2xl text-black font-manrope leading-relaxed">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                GDGC at UCSC is a student‑run community focused on learning, building, and networking around Google technologies. We host weekly workshops, collaborative projects, and career prep events. All majors and skill levels are welcome—come learn, build, and grow with us.
                             </p>
                         </div>
                     </div>
@@ -81,7 +83,7 @@ export default function Home() {
                                 Workshops
                             </h3>
                             <p className="mt-2 text-black px-4 font-manrope">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.
+                                Hands‑on sessions covering Google Cloud, Firebase, Android, Web, and AI—beginner friendly.
                             </p>
                         </div>
 
@@ -98,7 +100,7 @@ export default function Home() {
                                 Projects
                             </h3>
                             <p className="mt-2 text-black px-4 font-manrope">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.
+                                Join a team to build real products, learn Git/GitHub, and ship features each quarter.
                             </p>
                         </div>
 
@@ -115,7 +117,7 @@ export default function Home() {
                                 Socials
                             </h3>
                             <p className="mt-2 text-black px-4 font-manrope">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.
+                                Meet classmates at socials, mixers, and collabs with ACM/IEEE—make friends and connections.
                             </p>
                         </div>
 
@@ -132,7 +134,7 @@ export default function Home() {
                                 Internships
                             </h3>
                             <p className="mt-2 text-black px-4 font-manrope">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.
+                                Resume reviews, interview prep, alumni panels, and resources to land internships.
                             </p>
                         </div>
                     </div>
@@ -177,11 +179,19 @@ export default function Home() {
                     </h2>
 
                     <div className="max-w-5xl mx-auto">
-                        <img
-                            src="https://api.builder.io/api/v1/image/assets/TEMP/d2ddc1d4f9d5f7656814867bac2647b67c5cea3b?width=2074"
-                            alt="Google Calendar showing upcoming GDGC events"
-                            className="w-full h-auto rounded-lg shadow-xl border-2 border-gray-200"
-                        />
+                        <div className="rounded-3xl border-4 border-black shadow-2xl bg-gradient-to-br from-google-yellow via-google-red to-google-blue p-[3px]">
+                            <div className="rounded-[1.3rem] bg-white overflow-hidden">
+                                <div className="relative w-full pt-[75%]">
+                                    <iframe
+                                        title="GDGC Events Calendar"
+                                        src="https://calendar.google.com/calendar/embed?src=c_ff695c4056ce1dfff738ac504f168ed2cc5914910d5b9a3e8efd95ca39e520a8%40group.calendar.google.com&ctz=America%2FLos_Angeles&showPrint=0&showTabs=0&showCalendars=0&showTz=0&showTitle=0&mode=WEEK"
+                                        className="absolute inset-0 w-full h-full"
+                                        style={{ border: 0 }}
+                                        loading="lazy"
+                                    />
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>
