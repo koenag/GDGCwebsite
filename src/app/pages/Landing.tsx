@@ -11,7 +11,7 @@ export default function Home() {
                 className="relative isolate min-h-screen flex items-center justify-center overflow-hidden"
                 style={{
                     backgroundImage:
-                        "linear-gradient(to bottom right, hsl(4 83% 57%), hsl(45 97% 53%), hsl(217 90% 59%))",
+                        "linear-gradient(to bottom right, #EA4335, #34A853, #4285F4, #FBBC05)",
                 }}
             >
                 {/* Animated background blobs */}
@@ -178,20 +178,15 @@ export default function Home() {
                         Upcoming Events
                     </h2>
 
-                    <div className="max-w-5xl mx-auto">
-                        <div className="rounded-3xl border-4 border-black shadow-2xl bg-gradient-to-br from-google-yellow via-google-red to-google-blue p-[3px]">
-                            <div className="rounded-[1.3rem] bg-white overflow-hidden">
-                                <div className="relative w-full pt-[75%]">
-                                    <iframe
-                                        title="GDGC Events Calendar"
-                                        src="https://calendar.google.com/calendar/embed?src=c_ff695c4056ce1dfff738ac504f168ed2cc5914910d5b9a3e8efd95ca39e520a8%40group.calendar.google.com&ctz=America%2FLos_Angeles&showPrint=0&showTabs=0&showCalendars=0&showTz=0&showTitle=0&mode=WEEK"
-                                        className="absolute inset-0 w-full h-full"
-                                        style={{ border: 0 }}
-                                        loading="lazy"
-                                    />
-                                </div>
-                            </div>
-                        </div>
+                    <div className="max-w-5xl mx-auto rounded-lg shadow-xl border-2 border-gray-200 overflow-hidden">
+                        <iframe
+                            src="https://calendar.google.com/calendar/u/0/embed?src=ucsc.dsc@gmail.com&ctz=America/Los_Angeles"
+                            style={{ border: 0 }}
+                            width="100%"
+                            height="600"
+                            frameBorder="0"
+                            scrolling="no"
+                        ></iframe>
                     </div>
                 </div>
             </section>

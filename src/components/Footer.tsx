@@ -82,7 +82,7 @@ export default function Footer() {
                         <h4 className="text-sm font-semibold uppercase tracking-wider text-gray-500 mb-4">Contact</h4>
                         <ul className="space-y-3 text-gray-700">
                             <li>
-                                <a href="mailto:contact@gdgc.ucsc.edu" className="hover:text-google-blue">contact@gdgc.ucsc.edu</a>
+                                <a href="mailto:contact@gdgc.ucsc.edu" className="hover:text-google-blue">ucsc.dsc@gmail.com</a>
                             </li>
                             <li>University of California, Santa Cruz</li>
                             <li>Santa Cruz, CA</li>
