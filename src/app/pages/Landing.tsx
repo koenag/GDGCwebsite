@@ -77,12 +77,12 @@ export default function Home() {
                                     className="w-64 h-64 rounded-full object-cover"
                                 />
                             </div>
-                            <h3 className="mt-6 text-3xl lg:text-4xl font-bold text-black font-manrope">
-                                Workshops
-                            </h3>
-                            <p className="mt-2 text-black px-4 font-manrope">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.
-                            </p>
+                            <div className="bg-blue-400 rounded-2xl w-72 px-4 py-40 mt-[-10rem] flex flex-col items-center shadow-lg">
+                                <h3 className="text-3xl lg:text-4xl font-bold text-black font-manrope">Workshops</h3>
+                                <p className="mt-2 text-black px-4 font-manrope">
+                                    Lorem ipsum dolor sit amet,<br />consectetur adipiscing elit, sed do.
+                                </p>
+                            </div>
                         </div>
 
                         {/* Projects */}
@@ -94,12 +94,12 @@ export default function Home() {
                                     className="w-64 h-64 rounded-full object-cover"
                                 />
                             </div>
-                            <h3 className="mt-6 text-3xl lg:text-4xl font-bold text-black font-manrope">
-                                Projects
-                            </h3>
-                            <p className="mt-2 text-black px-4 font-manrope">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.
-                            </p>
+                            <div className="bg-yellow-300 rounded-2xl w-72 px-4 py-40 mt-[-10rem] flex flex-col items-center shadow-lg">
+                                <h3 className="text-3xl lg:text-4xl font-bold text-black font-manrope">Projects</h3>
+                                <p className="mt-2 text-black px-4 font-manrope">
+                                    Lorem ipsum dolor sit amet,<br />consectetur adipiscing elit, sed do.
+                                </p>
+                            </div>
                         </div>
 
                         {/* Socials */}
@@ -111,12 +111,12 @@ export default function Home() {
                                     className="w-64 h-64 rounded-full object-cover"
                                 />
                             </div>
-                            <h3 className="mt-6 text-3xl lg:text-4xl font-bold text-black font-manrope">
-                                Socials
-                            </h3>
-                            <p className="mt-2 text-black px-4 font-manrope">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.
-                            </p>
+                            <div className="bg-red-400 rounded-2xl w-72 px-4 py-40 mt-[-10rem] flex flex-col items-center shadow-lg">
+                                <h3 className="text-3xl lg:text-4xl font-bold text-black font-manrope">Socials</h3>
+                                <p className="mt-2 text-black px-4 font-manrope">
+                                    Lorem ipsum dolor sit amet,<br />consectetur adipiscing elit, sed do.
+                                </p>
+                            </div>
                         </div>
 
                         {/* Internships */}
@@ -128,12 +128,12 @@ export default function Home() {
                                     className="w-64 h-64 rounded-full object-cover"
                                 />
                             </div>
-                            <h3 className="mt-6 text-3xl lg:text-4xl font-bold text-black font-manrope">
-                                Internships
-                            </h3>
-                            <p className="mt-2 text-black px-4 font-manrope">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.
-                            </p>
+                            <div className="bg-green-400 rounded-2xl w-72 px-4 py-40 mt-[-10rem] flex flex-col items-center shadow-lg">
+                                <h3 className="text-3xl lg:text-4xl font-bold text-black font-manrope">Internships</h3>
+                                <p className="mt-2 text-black px-4 font-manrope">
+                                    Lorem ipsum dolor sit amet,<br />consectetur adipiscing elit, sed do.
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>
