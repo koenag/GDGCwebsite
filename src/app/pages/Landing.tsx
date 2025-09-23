@@ -79,12 +79,14 @@ export default function Home() {
                                     className="w-64 h-64 rounded-full object-cover"
                                 />
                             </div>
-                            <h3 className="mt-6 text-3xl lg:text-4xl font-bold text-black font-manrope">
-                                Workshops
-                            </h3>
-                            <p className="mt-2 text-black px-4 font-manrope">
-                                Hands‑on sessions covering Google Cloud, Firebase, Android, Web, and AI—beginner friendly.
-                            </p>
+
+                            <div className="bg-blue-400 rounded-2xl w-72 px-4 py-40 mt-[-10rem] flex flex-col items-center shadow-lg">
+                                <h3 className="text-3xl lg:text-4xl font-bold text-black font-manrope">Workshops</h3>
+                                <p className="mt-2 text-black px-4 font-manrope">
+                                    Hands‑on sessions covering Google Cloud, Firebase, Android, Web, and AI—beginner friendly.
+                                </p>
+                            </div>
+
                         </div>
 
                         {/* Projects */}
@@ -96,12 +98,13 @@ export default function Home() {
                                     className="w-64 h-64 rounded-full object-cover"
                                 />
                             </div>
-                            <h3 className="mt-6 text-3xl lg:text-4xl font-bold text-black font-manrope">
-                                Projects
-                            </h3>
-                            <p className="mt-2 text-black px-4 font-manrope">
-                                Join a team to build real products, learn Git/GitHub, and ship features each quarter.
-                            </p>
+                            <div className="bg-yellow-300 rounded-2xl w-72 px-4 py-40 mt-[-10rem] flex flex-col items-center shadow-lg">
+                                <h3 className="text-3xl lg:text-4xl font-bold text-black font-manrope">Projects</h3>
+                                <p className="mt-2 text-black px-4 font-manrope">
+                                    Join a team to build real products, learn Git/GitHub, and ship features each quarter.
+                                </p>
+                            </div>
+
                         </div>
 
                         {/* Socials */}
@@ -113,12 +116,12 @@ export default function Home() {
                                     className="w-64 h-64 rounded-full object-cover"
                                 />
                             </div>
-                            <h3 className="mt-6 text-3xl lg:text-4xl font-bold text-black font-manrope">
-                                Socials
-                            </h3>
-                            <p className="mt-2 text-black px-4 font-manrope">
-                                Meet classmates at socials, mixers, and collabs with ACM/IEEE—make friends and connections.
-                            </p>
+                            <div className="bg-red-400 rounded-2xl w-72 px-4 py-40 mt-[-10rem] flex flex-col items-center shadow-lg">
+                                <h3 className="text-3xl lg:text-4xl font-bold text-black font-manrope">Socials</h3>
+                                <p className="mt-2 text-black px-4 font-manrope">
+                                    Meet classmates at socials, mixers, and collabs with ACM/IEEE—make friends and connections.
+                                </p>
+                            </div>
                         </div>
 
                         {/* Internships */}
@@ -130,12 +133,13 @@ export default function Home() {
                                     className="w-64 h-64 rounded-full object-cover"
                                 />
                             </div>
-                            <h3 className="mt-6 text-3xl lg:text-4xl font-bold text-black font-manrope">
-                                Internships
-                            </h3>
-                            <p className="mt-2 text-black px-4 font-manrope">
-                                Resume reviews, interview prep, alumni panels, and resources to land internships.
-                            </p>
+
+                            <div className="bg-green-400 rounded-2xl w-72 px-4 py-40 mt-[-10rem] flex flex-col items-center shadow-lg">
+                                <h3 className="text-3xl lg:text-4xl font-bold text-black font-manrope">Internships</h3>
+                                <p className="mt-2 text-black px-4 font-manrope">
+                                    Resume reviews, interview prep, alumni panels, and resources to land <br></br>internships.
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>
