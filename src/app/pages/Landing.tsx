@@ -5,7 +5,6 @@ import CornocopiaModal from "@/components/CornucopiaModal";
 export default function Home() {
     return (
         <div className="min-h-screen bg-white">
-            <CornocopiaModal />
             {/* Hero Section */}
             <section
                 className="relative isolate min-h-screen flex items-center justify-center overflow-hidden"
